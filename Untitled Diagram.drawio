@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="cJ2iQTxOuAvhh3oDUNCY">
+    <mxGraphModel dx="984" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PyR-o-0Xz3kT--pylKSi-1" target="PyR-o-0Xz3kT--pylKSi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-1" value="workflow-engine&lt;div&gt;/process&lt;/div&gt;&lt;div&gt;/config&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="177.5" y="200" as="sourcePoint" />
+            <mxPoint x="182.5" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="178" y="201" />
+              <mxPoint x="183" y="201" />
+              <mxPoint x="183" y="241" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-3" value="emi ms&lt;div&gt;bbps&amp;nbsp;&lt;/div&gt;&lt;div&gt;flowytpe - netbanking.kotak&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PyR-o-0Xz3kT--pylKSi-4" target="PyR-o-0Xz3kT--pylKSi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-4" value="json s3&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="630" y="130" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-5" value="redis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PyR-o-0Xz3kT--pylKSi-7" target="PyR-o-0Xz3kT--pylKSi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-7" value="config updater&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-9" value="ALB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-10" value="http" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="PyR-o-0Xz3kT--pylKSi-1" target="PyR-o-0Xz3kT--pylKSi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyR-o-0Xz3kT--pylKSi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.031;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PyR-o-0Xz3kT--pylKSi-9" target="PyR-o-0Xz3kT--pylKSi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
