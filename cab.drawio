@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.8">
+  <diagram name="Page-1" id="9dEb62kC-2VsWD0feeph">
+    <mxGraphModel dx="978" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.327;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-9" target="KWMHU0D-LhJwPt2LsNXJ-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="-260" />
+              <mxPoint x="310" y="-260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-37" value="1. getFareEstimation()&lt;div&gt;2. acceptOrDeclineRide()&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KWMHU0D-LhJwPt2LsNXJ-36">
+          <mxGeometry x="-0.563" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-44" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-9" target="KWMHU0D-LhJwPt2LsNXJ-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="190" />
+              <mxPoint x="550" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-9" value="api gateway &amp;amp; load balancer&lt;div&gt;- routing&lt;/div&gt;&lt;div&gt;-authentication&lt;/div&gt;&lt;div&gt;-rate limting&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-130" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-19" target="KWMHU0D-LhJwPt2LsNXJ-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="-210" />
+              <mxPoint x="160" y="-30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-19" value="rider client (Android/ios)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-240" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-22" target="KWMHU0D-LhJwPt2LsNXJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-22" value="driver client (Android/ios)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-35" target="KWMHU0D-LhJwPt2LsNXJ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-35" target="KWMHU0D-LhJwPt2LsNXJ-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-35" value="Ride service&lt;div&gt;- fare estimation&lt;/div&gt;&lt;div&gt;-handles ride creation&lt;/div&gt;&lt;div&gt;-triggers matching workflow&lt;/div&gt;&lt;div&gt;updates DB with driver accept/decline&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-310" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-38" value="3rd party mapping service" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-40" value="dynamoDB or postgresql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-300" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-41" value="Ride&lt;div&gt;&lt;br&gt;&lt;div&gt;-rideId&lt;/div&gt;&lt;div&gt;-riderId&lt;/div&gt;&lt;div&gt;-driverId&lt;/div&gt;&lt;div&gt;-fareId&lt;/div&gt;&lt;div&gt;-source&lt;/div&gt;&lt;div&gt;-dest&lt;/div&gt;&lt;div&gt;-status&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-385" width="70" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-42" value="Fare&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-id&lt;/div&gt;&lt;div&gt;-userId&lt;/div&gt;&lt;div&gt;-source&lt;/div&gt;&lt;div&gt;-dest&lt;/div&gt;&lt;div&gt;-price&lt;/div&gt;&lt;div&gt;-ETA&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="860" y="-385" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-43" value="Rider&lt;div&gt;-id&lt;/div&gt;&lt;div&gt;.....&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="775" y="-217" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-44" value="Driver&lt;div&gt;id&lt;/div&gt;&lt;div&gt;vehicle&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="860" y="-225" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-45" value="- stores fare &amp;amp; ride objects" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-370" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-48" target="KWMHU0D-LhJwPt2LsNXJ-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-48" value="Match Queue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-80" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-51" target="KWMHU0D-LhJwPt2LsNXJ-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="145" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="110" />
+              <mxPoint x="450" y="150" />
+              <mxPoint x="291" y="150" />
+              <mxPoint x="291" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-70" value="sends drivers notif to &lt;br&gt;accept/reject rides" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KWMHU0D-LhJwPt2LsNXJ-66">
+          <mxGeometry x="0.0532" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-51" value="Ride Matching Service&lt;div&gt;- matches drivers and riders&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-52" value="location DB&lt;div&gt;- Redis&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-30" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-53" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;stores drivers current location as lat/long&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-56" value="Distributed Lock&lt;div&gt;-Redis&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-63" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-51" target="KWMHU0D-LhJwPt2LsNXJ-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="30" as="sourcePoint" />
+            <mxPoint x="580" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-51" target="KWMHU0D-LhJwPt2LsNXJ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-65" value="fetches closest drivers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KWMHU0D-LhJwPt2LsNXJ-64">
+          <mxGeometry x="-0.4698" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-67" target="KWMHU0D-LhJwPt2LsNXJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-67" value="Notification&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Service (apple push notif, firebase cloud m, etc&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-73" value="Location service" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KWMHU0D-LhJwPt2LsNXJ-73" target="KWMHU0D-LhJwPt2LsNXJ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-76" value="Core Entities&lt;div&gt;1. Rider&lt;/div&gt;&lt;div&gt;2. Ride&lt;/div&gt;&lt;div&gt;3, Driver&lt;/div&gt;&lt;div&gt;4. Location&lt;/div&gt;&lt;div&gt;5. Fare&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="343" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-78" value="POST /fare&lt;div&gt;{&lt;/div&gt;&lt;div&gt;source, dest&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="488" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-79" value="POST /rides&lt;div&gt;{&lt;/div&gt;&lt;div&gt;fareId&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="488" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-80" value="POST /drivers/location&lt;div&gt;{&lt;/div&gt;&lt;div&gt;lat, long&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="488" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KWMHU0D-LhJwPt2LsNXJ-81" value="PATCH /rides/rideId&lt;div&gt;{&lt;/div&gt;&lt;div&gt;accept/deny&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="468" width="130" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
